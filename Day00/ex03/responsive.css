@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://www.desktopbackground.org/download/o/2012/03/08/355691_4k-trippy-fractal-wallpapers_3840x2160_h.jpg");
+    background-color: #3e4042;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.row {
+  display: flex;
+  min-width: 1500px !important;
+}
+.square p {
+    margin: 0;
+    margin-top: 5px;
+}
+.square {
+    display: inline-block;
+    width: 100px !important;
+    height: 100px !important;
+}
+@media only screen and (min-width: 900px) {
+    .square {
+    width: 5vw !important;
+    height: 5vw !important;
+    font-size: 1vw;
+    height: 100px;
+    height: 100%;
+    margin-top: 10px !important;
+    margin-bottom: 1px;
+    }
+    .row {
+        min-width: auto !important;
+        display: flex !important;
+    }
+}
+.column {
+    padding: 0;
+    align-items: center;
+    border:1px solid black;
+    margin-left: 5px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px;
+}
+.b_column {
+  padding: 0;
+  align-items: center;
+  border:1px solid transparent;
+  margin-left: 5px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px;
+}
+.alkali_metal {
+    background-color: #ff7526;
+}
+.alkaline_earth {
+    background-color: #FF22F5;
+}
+.transitional_metal {
+    background-color: #59fcff;
+}
+.post_transitional_metal {
+    background-color: #0094c1;
+}
+.basic_metal {
+    background-color: #ff7526;
+}
+.metalloids {
+    background-color: #00D233;
+}
+.nonmetal {
+    background-color: #ffdd70;
+}
+.noble_gas {
+    background-color: #e8b200;
+}
+.lanthanide {
+    background-color: #b0ff56;
+}
+.actinide {
+    background-color: #ff4c4c;
+}
